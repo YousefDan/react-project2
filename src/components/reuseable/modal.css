@@ -1,0 +1,20 @@
+.overlay-modal{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 9;
+    top: 0;
+    left: 0;
+}
+.modal-box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 800px;
+    background-color: #FFF;
+    min-height: 180px;
+}
